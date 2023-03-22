@@ -1,0 +1,186 @@
+*
+ {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+
+ body {
+    position: relative;
+    width: 960px;
+    height: 720px;
+    background: #C4D7E2;
+ }
+
+ .container .card-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+
+    position: absolute;
+    width: 300px;
+    height: 672px;
+    left: 32px;
+    top: calc(50% - 672px/2 + 8px);
+    background: #006C84;
+    border-radius: 8px;
+ }
+
+ .container .card-two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px 10px;
+    gap: 10px;
+
+    position: absolute;
+    width: 519px;
+    height: 40px;
+    left: 371px;
+    top: 32px;
+    background: #006C84;
+    border-radius: 32px;
+ }
+
+ .container .card-three {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px 10px;
+    gap: 10px;
+
+    position: absolute;
+    width: 519px;
+    height: 40px;
+    left: 371px;
+    top: 310px;
+
+    background: #006C84;
+    border-radius: 32px;
+ }
+
+ .container .card-four {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 0px;
+   gap: 4px;
+
+   position: absolute;
+   width: 500px;
+   height: 77px;
+   left: 413px;
+   top: 98px;
+
+ }
+
+ .container .card-five {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 0px;
+   gap: 4px;
+
+   position: absolute;
+   width: 540px;
+   height: 97px;
+   left: 397px;
+   top: 368px;
+
+ }
+
+ .profile{
+    width: 181px;
+    height: 181px;
+       
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+ }
+
+ .fp {
+   width: 214px;
+   height: 48px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 25px;
+   text-align: center;
+
+   color: white;
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+   
+   }
+
+ .ra {
+   width: 162px;
+height: 22px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+
+color: #FFFFFF;
+
+
+flex: none;
+order: 1;
+flex-grow: 0;
+ }
+
+ .po {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+
+color: #FFFFFF;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+ }
+
+
+ .line {
+   position: absolute;
+   width: 105px;
+   height: 0px;
+   left: 397px;
+   top: 110px;
+ }
+
+ .ts {
+   display: flex;
+   padding-top: 10px;
+
+
+   width: 268px;
+   height: 35px;
+   flex: none;
+   
+
+   color: white;
+   font-size: 18px;
+ }
+
+ .dt {
+   display: flex;
+   padding-top: 10px;
+
+   width: 268px;
+   
+   color: white;
+   font-size: 18px;
+   
+ }
